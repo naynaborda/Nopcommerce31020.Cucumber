@@ -1,0 +1,6 @@
+testRunner\Hooks.class
+testRunner\RegistrationSteps.class
+testRunner\VirtualGiftCardSteps.class
+testRunner\Runner.class
+testRunner\ClothingComparisionSteps.class
+testRunner\BuyingBookSteps.class

@@ -1,4 +1,5 @@
 Feature: Buying a Book Functionality
+
   Background:
     Given User is on the home page
     When User click on books
@@ -11,7 +12,8 @@ Feature: Buying a Book Functionality
     And User click on term and condition
     And User click on checkout
     And User click on checkout as guest
-@SmokeTest
+
+  @RegressionTest
   Scenario: to verify user should  able to see order confirmation message after buying a book
     And User filled personal details for checkout
     And User click on continue button from one page check out page
@@ -22,7 +24,8 @@ Feature: Buying a Book Functionality
     And User click on Continue button From Opc-Payment_Info Page
     And User click on Confirm button From Opc-Confirm_Order Page
     Then User should able to see order confirmation message "Your order has been successfully processed!"
-  @SanityTest
+
+  @RegressionTest
 
   Scenario Outline: to confirm user should  able to see order confirmation message after buying a book
     And User enter"<FirstName>","<LastName>","<Email>","<Country>","<City>","<Address1>","<PostCode>","<PhoneNumber>"
@@ -37,7 +40,6 @@ Feature: Buying a Book Functionality
 
 
 
-      Examples:
-      |FirstName|LastName|Email              |Country          |City  |Address1     |PostCode|PhoneNumber|Card type  |CardHolder Name|Card Number    |Expiry Month|Expiry Year|Card Code|
-      |Raj1     |Kapoor1 |rajkappor1@test.com|United Kingdom   |London|606,ShivNagar|fg5 9lo |08965434875|Master card|Mr Raj1         |378282246310005|02          |2021       |324      |
-
+    Examples:
+      | FirstName | LastName | Email               | Country        | City   | Address1      | PostCode | PhoneNumber | Card type   | CardHolder Name | Card Number     | Expiry Month | Expiry Year | Card Code |
+      | Raj1      | Kapoor1  | rajkappor1@test.com | United Kingdom | London | 606,ShivNagar | fg5 9lo  | 08965434875 | Master card | Mr Raj1         | 378282246310005 | 02           | 2021        | 324       |

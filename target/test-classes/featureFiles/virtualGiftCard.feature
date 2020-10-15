@@ -1,10 +1,10 @@
-
 Feature: adding a virtual gift card in the cart and send an email a friend functionality
+
   Background:
     Given  User is on the home page
     When User click on the register button
 
-    @SanityTest
+  @SanityTest
 
   Scenario: To Verify User should able to add virtual gift card in the cart send an email a friend and see confirmation message
     And User enter all the Mandatory field on the registration page "Ram","Sita"
@@ -22,7 +22,7 @@ Feature: adding a virtual gift card in the cart and send an email a friend funct
 #   Then User should able to send an email a friend
 #   And User should able to see confirmation message Your message has been sent.
 
-@SmokeTest
+  @SmokeTest
   Scenario Outline: To confirm User should able to add virtual gift card in the cart and send an email a friend and see confirmation message
     And User enter all the Mandatory fields on the registration page "<FirstName>","<LastName>","<email>","<Password>","<Confirm Password>"
     And User click on register button on the registration page
@@ -40,5 +40,5 @@ Feature: adding a virtual gift card in the cart and send an email a friend funct
 #   And User should able to see confirmation message Your message has been sent.
 
     Examples:
-      |FirstName |LastName  |email  |Password|Confirm Password|Recipient's Name|Recipient's Email|Friend's email|User email address|Personal message|
-      |Ram3      |Sita3     |test3  |sitaram |sitaram         |Sonal1          |sonal1@test.com  |sonal1@test.com|ramsita@test.com  |Birthday Gift   |
+      | FirstName | LastName | email | Password | Confirm Password | Recipient's Name | Recipient's Email | Friend's email  | User email address | Personal message |
+      | Ram3      | Sita3    | test3 | sitaram  | sitaram          | Sonal1           | sonal1@test.com   | sonal1@test.com | ramsita@test.com   | Birthday Gift    |

@@ -3,8 +3,8 @@ package testRunner;
 import com.NopCommerce.GiftCardsPage;
 import com.NopCommerce.HomePage;
 import com.NopCommerce.VirtualGiftCard;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.*;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.When;
 
 public class VirtualGiftCardSteps {
     HomePage homePage = new HomePage();
@@ -38,6 +38,5 @@ public class VirtualGiftCardSteps {
         virtualGiftCard.enterRecipientsNameAndEmail(recipientsName, recipientsEmail);
 
     }
-
 
 }

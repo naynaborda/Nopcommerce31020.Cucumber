@@ -4,10 +4,13 @@ import com.NopCommerce.HomePage;
 import com.NopCommerce.LoginPage;
 import com.NopCommerce.RegisterResultPage;
 import com.NopCommerce.RegistrationPage;
-import cucumber.api.java.en.*;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-public class RegistrationSteps {
+public class RegistrationSteps1 {
     HomePage homePage=new HomePage();
     RegistrationPage registrationPage=new RegistrationPage();
     RegisterResultPage registerResultPage=new RegisterResultPage();
@@ -22,12 +25,12 @@ public class RegistrationSteps {
         homePage.clickOnRegisterBtn();
 
     }
-@And("^User enter all the Mandatory field on the registration page \"([^\"]*)\",\"([^\"]*)\"$")
-public void userEnterAllTheMandatoryFieldOnTheRegistrationPage(String firstName, String lastName) {
+    @And("^User enter all the Mandatory field on the registration page \"([^\"]*)\",\"([^\"]*)\"$")
+    public void userEnterAllTheMandatoryFieldOnTheRegistrationPage(String firstName, String lastName) {
         //here we passing data from featureFile(scenario)
-    registrationPage.fillTheRegistrationForm(firstName,lastName);
+        registrationPage.fillTheRegistrationForm(firstName,lastName);
 
-}
+    }
     @When("^User enter all the Mandatory fields on the registration page \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\"$")
     public void user_enter_all_the_Mandatory_fields_on_the_registration_page(String firstName, String lastName, String email, String password, String confirmPassword) {
         //here we passing data from featureFile(scenario outline)

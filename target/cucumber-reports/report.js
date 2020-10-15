@@ -6,8 +6,295 @@ formatter.feature({
   "id": "buying-a-book-functionality",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 10300463700,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "User is on the home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "User click on books",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "User click on Fahrenheit  by ray bradbury",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User change quantity of the product \"4\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "User add Fahrenheit  by bradbury book in wish list",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User should see message \"The product has been added to your wishlist\" from top green line",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "User add product in to cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User click on cart from top green message",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "User click on term and condition",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "User click on checkout",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "User click on checkout as guest",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegistrationSteps1.user_is_on_the_home_page()"
+});
+formatter.result({
+  "duration": 129438400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_books()"
+});
+formatter.result({
+  "duration": 1604603200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_Fahrenheit_by_ray_bradbury()"
+});
+formatter.result({
+  "duration": 2000210800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "4",
+      "offset": 37
+    }
+  ],
+  "location": "BuyingBookSteps1.userChangeQuantityOfTheProduct(String)"
+});
+formatter.result({
+  "duration": 93535900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_add_Fahrenheit_by_bradbury_book_in_wish_list()"
+});
+formatter.result({
+  "duration": 264251800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "The product has been added to your wishlist",
+      "offset": 25
+    }
+  ],
+  "location": "BuyingBookSteps1.userShouldSeeMessageFromTopGreenLine(String)"
+});
+formatter.result({
+  "duration": 706744900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_add_product_in_to_cart()"
+});
+formatter.result({
+  "duration": 256034200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_cart_from_top_green_message()"
+});
+formatter.result({
+  "duration": 1754649700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_term_and_condition()"
+});
+formatter.result({
+  "duration": 254413900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_checkout()"
+});
+formatter.result({
+  "duration": 742585100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_checkout_as_guest()"
+});
+formatter.result({
+  "duration": 1793800700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "to verify user should  able to see order confirmation message after buying a book",
+  "description": "",
+  "id": "buying-a-book-functionality;to-verify-user-should--able-to-see-order-confirmation-message-after-buying-a-book",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@RegressionTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "User filled personal details for checkout",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "User click on continue button from one page check out page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "User click on continue button from shipping page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "User click on credit card",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "User click on Continue From Opc-Payment-Method Page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "User enter card details",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "User click on Continue button From Opc-Payment_Info Page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "User click on Confirm button From Opc-Confirm_Order Page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "User should able to see order confirmation message \"Your order has been successfully processed!\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_filled_personal_details_for_checkout()"
+});
+formatter.result({
+  "duration": 733230600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_continue_button_from_one_page_check_out_page()"
+});
+formatter.result({
+  "duration": 265030000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_continue_button_from_shipping_page()"
+});
+formatter.result({
+  "duration": 403097400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_credit_card()"
+});
+formatter.result({
+  "duration": 338863200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_Continue_From_Opc_Payment_Method_Page()"
+});
+formatter.result({
+  "duration": 249566600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_enter_card_details()"
+});
+formatter.result({
+  "duration": 1026730600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_Continue_button_From_Opc_Payment_Info_Page()"
+});
+formatter.result({
+  "duration": 247950500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BuyingBookSteps1.user_click_on_Confirm_button_From_Opc_Confirm_Order_Page()"
+});
+formatter.result({
+  "duration": 329510400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Your order has been successfully processed!",
+      "offset": 52
+    }
+  ],
+  "location": "BuyingBookSteps1.userShouldAbleToSeeOrderConfirmationMessage(String)"
+});
+formatter.result({
+  "duration": 1787453400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 42800,
+  "status": "passed"
+});
 formatter.scenarioOutline({
-  "line": 27,
+  "line": 30,
   "name": "to confirm user should  able to see order confirmation message after buying a book",
   "description": "",
   "id": "buying-a-book-functionality;to-confirm-user-should--able-to-see-order-confirmation-message-after-buying-a-book",
@@ -15,58 +302,58 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 25,
-      "name": "@SanityTest"
+      "line": 28,
+      "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 28,
+  "line": 31,
   "name": "User enter\"\u003cFirstName\u003e\",\"\u003cLastName\u003e\",\"\u003cEmail\u003e\",\"\u003cCountry\u003e\",\"\u003cCity\u003e\",\"\u003cAddress1\u003e\",\"\u003cPostCode\u003e\",\"\u003cPhoneNumber\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 32,
   "name": "User click on continue button from one page check out page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 33,
   "name": "User click on continue button from shipping page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 34,
   "name": "User click on credit card",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 35,
   "name": "User click on Continue From Opc-Payment-Method Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 36,
   "name": "User enter card details\"\u003cCard type\u003e\",\"\u003cCardHolder Name\u003e\",\"\u003cCard Number\u003e\",\"\u003cExpiry Month\u003e\",\"\u003cExpiry Year\u003e\",\"\u003cCard Code\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 37,
   "name": "User click on Continue button From Opc-Payment_Info Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 38,
   "name": "User click on Confirm button From Opc-Confirm_Order Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 39,
   "name": "User should able to see order confirmation message \"Your order has been successfully processed!\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 40,
+  "line": 43,
   "name": "",
   "description": "",
   "id": "buying-a-book-functionality;to-confirm-user-should--able-to-see-order-confirmation-message-after-buying-a-book;",
@@ -88,7 +375,7 @@ formatter.examples({
         "Expiry Year",
         "Card Code"
       ],
-      "line": 41,
+      "line": 44,
       "id": "buying-a-book-functionality;to-confirm-user-should--able-to-see-order-confirmation-message-after-buying-a-book;;1"
     },
     {
@@ -108,97 +395,97 @@ formatter.examples({
         "2021",
         "324"
       ],
-      "line": 42,
+      "line": 45,
       "id": "buying-a-book-functionality;to-confirm-user-should--able-to-see-order-confirmation-message-after-buying-a-book;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 11106554500,
+  "duration": 8128670700,
   "status": "passed"
 });
 formatter.background({
-  "line": 2,
+  "line": 3,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 3,
+  "line": 4,
   "name": "User is on the home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "User click on books",
   "keyword": "When "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "User click on Fahrenheit  by ray bradbury",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "User change quantity of the product \"4\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "User add Fahrenheit  by bradbury book in wish list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "User should see message \"The product has been added to your wishlist\" from top green line",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "User add product in to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "User click on cart from top green message",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "User click on term and condition",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "User click on checkout",
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "User click on checkout as guest",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RegistrationSteps.user_is_on_the_home_page()"
+  "location": "RegistrationSteps1.user_is_on_the_home_page()"
 });
 formatter.result({
-  "duration": 289916900,
+  "duration": 55600,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_books()"
+  "location": "BuyingBookSteps1.user_click_on_books()"
 });
 formatter.result({
-  "duration": 1591275100,
+  "duration": 2225646700,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_Fahrenheit_by_ray_bradbury()"
+  "location": "BuyingBookSteps1.user_click_on_Fahrenheit_by_ray_bradbury()"
 });
 formatter.result({
-  "duration": 4903481700,
+  "duration": 1688134300,
   "status": "passed"
 });
 formatter.match({
@@ -208,17 +495,17 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "BuyingBookSteps.userChangeQuantityOfTheProduct(String)"
+  "location": "BuyingBookSteps1.userChangeQuantityOfTheProduct(String)"
 });
 formatter.result({
-  "duration": 160661900,
+  "duration": 84585300,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_add_Fahrenheit_by_bradbury_book_in_wish_list()"
+  "location": "BuyingBookSteps1.user_add_Fahrenheit_by_bradbury_book_in_wish_list()"
 });
 formatter.result({
-  "duration": 280891600,
+  "duration": 265682100,
   "status": "passed"
 });
 formatter.match({
@@ -228,49 +515,49 @@ formatter.match({
       "offset": 25
     }
   ],
-  "location": "BuyingBookSteps.userShouldSeeMessageFromTopGreenLine(String)"
+  "location": "BuyingBookSteps1.userShouldSeeMessageFromTopGreenLine(String)"
 });
 formatter.result({
-  "duration": 713051800,
+  "duration": 796852500,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_add_product_in_to_cart()"
+  "location": "BuyingBookSteps1.user_add_product_in_to_cart()"
 });
 formatter.result({
-  "duration": 278589200,
+  "duration": 255766100,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_cart_from_top_green_message()"
+  "location": "BuyingBookSteps1.user_click_on_cart_from_top_green_message()"
 });
 formatter.result({
-  "duration": 1668835900,
+  "duration": 938468600,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_term_and_condition()"
+  "location": "BuyingBookSteps1.user_click_on_term_and_condition()"
 });
 formatter.result({
-  "duration": 260878600,
+  "duration": 259586000,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_checkout()"
+  "location": "BuyingBookSteps1.user_click_on_checkout()"
 });
 formatter.result({
-  "duration": 1452367900,
+  "duration": 880928500,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_checkout_as_guest()"
+  "location": "BuyingBookSteps1.user_click_on_checkout_as_guest()"
 });
 formatter.result({
-  "duration": 1848305300,
+  "duration": 1317145200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 42,
+  "line": 45,
   "name": "to confirm user should  able to see order confirmation message after buying a book",
   "description": "",
   "id": "buying-a-book-functionality;to-confirm-user-should--able-to-see-order-confirmation-message-after-buying-a-book;;2",
@@ -278,13 +565,13 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 25,
-      "name": "@SanityTest"
+      "line": 28,
+      "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 28,
+  "line": 31,
   "name": "User enter\"Raj1\",\"Kapoor1\",\"rajkappor1@test.com\",\"United Kingdom\",\"London\",\"606,ShivNagar\",\"fg5 9lo\",\"08965434875\"",
   "matchedColumns": [
     0,
@@ -299,27 +586,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 32,
   "name": "User click on continue button from one page check out page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 33,
   "name": "User click on continue button from shipping page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 34,
   "name": "User click on credit card",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 35,
   "name": "User click on Continue From Opc-Payment-Method Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 36,
   "name": "User enter card details\"Master card\",\"Mr Raj1\",\"378282246310005\",\"02\",\"2021\",\"324\"",
   "matchedColumns": [
     8,
@@ -332,17 +619,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 37,
   "name": "User click on Continue button From Opc-Payment_Info Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 38,
   "name": "User click on Confirm button From Opc-Confirm_Order Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 39,
   "name": "User should able to see order confirmation message \"Your order has been successfully processed!\"",
   "keyword": "Then "
 });
@@ -381,38 +668,38 @@ formatter.match({
       "offset": 102
     }
   ],
-  "location": "BuyingBookSteps.userEnter(String,String,String,String,String,String,String,String)"
+  "location": "BuyingBookSteps1.userEnter(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 930552500,
+  "duration": 679182500,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_continue_button_from_one_page_check_out_page()"
+  "location": "BuyingBookSteps1.user_click_on_continue_button_from_one_page_check_out_page()"
 });
 formatter.result({
-  "duration": 259882800,
+  "duration": 267849500,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_continue_button_from_shipping_page()"
+  "location": "BuyingBookSteps1.user_click_on_continue_button_from_shipping_page()"
 });
 formatter.result({
-  "duration": 388843200,
+  "duration": 435993400,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_credit_card()"
+  "location": "BuyingBookSteps1.user_click_on_credit_card()"
 });
 formatter.result({
-  "duration": 351454900,
+  "duration": 936516300,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_Continue_From_Opc_Payment_Method_Page()"
+  "location": "BuyingBookSteps1.user_click_on_Continue_From_Opc_Payment_Method_Page()"
 });
 formatter.result({
-  "duration": 251984500,
+  "duration": 295327300,
   "status": "passed"
 });
 formatter.match({
@@ -442,24 +729,24 @@ formatter.match({
       "offset": 78
     }
   ],
-  "location": "BuyingBookSteps.userEnterCardDetails(String,String,String,String,String,String)"
+  "location": "BuyingBookSteps1.userEnterCardDetails(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1231577900,
+  "duration": 1649106800,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_Continue_button_From_Opc_Payment_Info_Page()"
+  "location": "BuyingBookSteps1.user_click_on_Continue_button_From_Opc_Payment_Info_Page()"
 });
 formatter.result({
-  "duration": 278011300,
+  "duration": 245915900,
   "status": "passed"
 });
 formatter.match({
-  "location": "BuyingBookSteps.user_click_on_Confirm_button_From_Opc_Confirm_Order_Page()"
+  "location": "BuyingBookSteps1.user_click_on_Confirm_button_From_Opc_Confirm_Order_Page()"
 });
 formatter.result({
-  "duration": 347346800,
+  "duration": 340353500,
   "status": "passed"
 });
 formatter.match({
@@ -469,14 +756,14 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "BuyingBookSteps.userShouldAbleToSeeOrderConfirmationMessage(String)"
+  "location": "BuyingBookSteps1.userShouldAbleToSeeOrderConfirmationMessage(String)"
 });
 formatter.result({
-  "duration": 1459138800,
+  "duration": 914589100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 28700,
+  "duration": 13300,
   "status": "passed"
 });
 formatter.uri("clothingComparison.feature");
@@ -488,54 +775,54 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8213801200,
+  "duration": 8197052200,
   "status": "passed"
 });
 formatter.background({
-  "line": 2,
+  "line": 3,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 3,
+  "line": 4,
   "name": "User is on the home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "User click on Apparel",
   "keyword": "When "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "User click on clothing  from left side menu",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RegistrationSteps.user_is_on_the_home_page()"
+  "location": "RegistrationSteps1.user_is_on_the_home_page()"
 });
 formatter.result({
-  "duration": 89900,
+  "duration": 42100,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_click_on_Apparel()"
+  "location": "ClothingComparisionSteps1.user_click_on_Apparel()"
 });
 formatter.result({
-  "duration": 1581395300,
+  "duration": 1812373900,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_click_on_clothing_from_left_side_menu()"
+  "location": "ClothingComparisionSteps1.user_click_on_clothing_from_left_side_menu()"
 });
 formatter.result({
-  "duration": 894462000,
+  "duration": 1074410000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 21,
+  "line": 24,
   "name": "to confirm user should able to see confirmation message  no product for comparison in compare list.",
   "description": "",
   "id": "t-shirt-comparison-functionality;to-confirm-user-should-able-to-see-confirmation-message--no-product-for-comparison-in-compare-list.",
@@ -543,57 +830,57 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 20,
+      "line": 23,
       "name": "@RegressionTest"
     },
     {
-      "line": 20,
+      "line": 23,
       "name": "@SanityTest"
     }
   ]
 });
 formatter.step({
-  "line": 22,
+  "line": 25,
   "name": "User select sort by \"Price: High to Low\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 26,
   "name": "User select  display \"9\" per page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 27,
   "name": "User click on list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 28,
   "name": "User add custom t-shirt to compare list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 29,
   "name": "User add over-sized women t-shirt to compare list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 27,
+  "line": 30,
   "name": "User click on product comparison from green line link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 28,
+  "line": 31,
   "name": "User verify over-sized women t-shirt name in compare list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 32,
   "name": "User click on clear compare list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 33,
   "name": "User Should able to see confirmation message\"You have no items to compare.\"",
   "keyword": "Then "
 });
@@ -604,10 +891,10 @@ formatter.match({
       "offset": 21
     }
   ],
-  "location": "ClothingComparisionSteps.userSelectSortBy(String)"
+  "location": "ClothingComparisionSteps1.userSelectSortBy(String)"
 });
 formatter.result({
-  "duration": 1453266800,
+  "duration": 1367213800,
   "status": "passed"
 });
 formatter.match({
@@ -617,52 +904,52 @@ formatter.match({
       "offset": 22
     }
   ],
-  "location": "ClothingComparisionSteps.userSelectDisplayPerPage(String)"
+  "location": "ClothingComparisionSteps1.userSelectDisplayPerPage(String)"
 });
 formatter.result({
-  "duration": 1500790600,
+  "duration": 1826118300,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_click_on_list()"
+  "location": "ClothingComparisionSteps1.user_click_on_list()"
 });
 formatter.result({
-  "duration": 1071661500,
+  "duration": 1060520300,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_add_custom_t_shirt_to_compare_list()"
+  "location": "ClothingComparisionSteps1.user_add_custom_t_shirt_to_compare_list()"
 });
 formatter.result({
-  "duration": 277646100,
+  "duration": 289554600,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_add_over_sized_women_t_shirt_to_compare_list()"
+  "location": "ClothingComparisionSteps1.user_add_over_sized_women_t_shirt_to_compare_list()"
 });
 formatter.result({
-  "duration": 250273300,
+  "duration": 245545700,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_click_on_product_comparison_from_green_line_link()"
+  "location": "ClothingComparisionSteps1.user_click_on_product_comparison_from_green_line_link()"
 });
 formatter.result({
-  "duration": 1069895300,
+  "duration": 1068558600,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_verify_over_sized_women_t_shirt_name_in_compare_list()"
+  "location": "ClothingComparisionSteps1.user_verify_over_sized_women_t_shirt_name_in_compare_list()"
 });
 formatter.result({
-  "duration": 206195600,
+  "duration": 129252200,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClothingComparisionSteps.user_click_on_clear_compare_list()"
+  "location": "ClothingComparisionSteps1.user_click_on_clear_compare_list()"
 });
 formatter.result({
-  "duration": 64568800,
+  "duration": 47496700,
   "status": "passed"
 });
 formatter.match({
@@ -672,388 +959,14 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "ClothingComparisionSteps.user_Should_able_to_see_confirmation_message(String)"
+  "location": "ClothingComparisionSteps1.user_Should_able_to_see_confirmation_message(String)"
 });
 formatter.result({
-  "duration": 1198558600,
+  "duration": 1609691800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 26900,
-  "status": "passed"
-});
-formatter.uri("registration.feature");
-formatter.feature({
-  "line": 2,
-  "name": "registration functionality",
-  "description": "",
-  "id": "registration-functionality",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 8998661800,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "User is on the home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "User click on the register button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "RegistrationSteps.user_is_on_the_home_page()"
-});
-formatter.result({
-  "duration": 207900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_click_on_the_register_button()"
-});
-formatter.result({
-  "duration": 1422063100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 8,
-  "name": "to verify user is able to register successfully and login again with registered email address",
-  "description": "",
-  "id": "registration-functionality;to-verify-user-is-able-to-register-successfully-and-login-again-with-registered-email-address",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 7,
-      "name": "@RegressionTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 9,
-  "name": "User enter all the Mandatory field on the registration page \"Ram\",\"Sita\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "User click on register button on the registration page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "User should able to register successfully with message \"Your registration completed\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
-  "name": "User Click on logout button on the register result page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "User Click on login button on the home page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "User enter Registered email address and password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "User click on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "User should able to log in successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ram",
-      "offset": 61
-    },
-    {
-      "val": "Sita",
-      "offset": 67
-    }
-  ],
-  "location": "RegistrationSteps.userEnterAllTheMandatoryFieldOnTheRegistrationPage(String,String)"
-});
-formatter.result({
-  "duration": 1542408300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_click_on_register_button_on_the_registration_page()"
-});
-formatter.result({
-  "duration": 2139260200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Your registration completed",
-      "offset": 56
-    }
-  ],
-  "location": "RegistrationSteps.userShouldAbleToRegisterSuccessfullyWithMessage(String)"
-});
-formatter.result({
-  "duration": 63329000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_Click_on_logout_button_on_the_register_result_page()"
-});
-formatter.result({
-  "duration": 2217030100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_Click_on_login_button_on_the_home_page()"
-});
-formatter.result({
-  "duration": 584985100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_enter_Registered_email_address_and_password()"
-});
-formatter.result({
-  "duration": 181542900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_click_on_login_button()"
-});
-formatter.result({
-  "duration": 919631600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_should_able_to_log_in_successfully()"
-});
-formatter.result({
-  "duration": 62084100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 20700,
-  "status": "passed"
-});
-formatter.uri("virtualGiftCard.feature");
-formatter.feature({
-  "line": 2,
-  "name": "adding a virtual gift card in the cart and send an email a friend functionality",
-  "description": "",
-  "id": "adding-a-virtual-gift-card-in-the-cart-and-send-an-email-a-friend-functionality",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 9247823400,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "User is on the home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "User click on the register button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "RegistrationSteps.user_is_on_the_home_page()"
-});
-formatter.result({
-  "duration": 159100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_click_on_the_register_button()"
-});
-formatter.result({
-  "duration": 1743076200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 9,
-  "name": "To Verify User should able to add virtual gift card in the cart send an email a friend and see confirmation message",
-  "description": "",
-  "id": "adding-a-virtual-gift-card-in-the-cart-and-send-an-email-a-friend-functionality;to-verify-user-should-able-to-add-virtual-gift-card-in-the-cart-send-an-email-a-friend-and-see-confirmation-message",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 7,
-      "name": "@SanityTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 10,
-  "name": "User enter all the Mandatory field on the registration page \"Ram\",\"Sita\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "User click on register button on the registration page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "User Click on logout button on the register result page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "User Click on login button on the home page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "User enter Registered email address and password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "User click on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "User click on Gift Cards",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "User click on add to cart on virtual gift card",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "User enter \"Sonal\",\"sonal@test.com\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "User click on Email a friend",
-  "keyword": "And "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ram",
-      "offset": 61
-    },
-    {
-      "val": "Sita",
-      "offset": 67
-    }
-  ],
-  "location": "RegistrationSteps.userEnterAllTheMandatoryFieldOnTheRegistrationPage(String,String)"
-});
-formatter.result({
-  "duration": 1616890000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_click_on_register_button_on_the_registration_page()"
-});
-formatter.result({
-  "duration": 1113560000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_Click_on_logout_button_on_the_register_result_page()"
-});
-formatter.result({
-  "duration": 978769800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_Click_on_login_button_on_the_home_page()"
-});
-formatter.result({
-  "duration": 580857400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_enter_Registered_email_address_and_password()"
-});
-formatter.result({
-  "duration": 192238200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.user_click_on_login_button()"
-});
-formatter.result({
-  "duration": 1034102900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VirtualGiftCardSteps.user_click_on_Gift_Cards()"
-});
-formatter.result({
-  "duration": 939899600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VirtualGiftCardSteps.user_click_on_add_to_cart_on_virtual_gift_card()"
-});
-formatter.result({
-  "duration": 300226800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sonal",
-      "offset": 12
-    },
-    {
-      "val": "sonal@test.com",
-      "offset": 20
-    }
-  ],
-  "location": "VirtualGiftCardSteps.userEnter(String,String)"
-});
-formatter.result({
-  "duration": 577081500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VirtualGiftCardSteps.user_click_on_Email_a_friend()"
-});
-formatter.result({
-  "duration": 337434300,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 15600,
+  "duration": 12000,
   "status": "passed"
 });
 });

@@ -1,11 +1,12 @@
 package testRunner;
 
 import com.NopCommerce.*;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.*;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-public class BuyingBookSteps {
+public class BuyingBookSteps1 {
     HomePage homePage=new HomePage();
     BooksPage booksPage=new BooksPage();
     Fahrenheit451BookPage fahrenheit451BookPage=new Fahrenheit451BookPage();
@@ -162,7 +163,6 @@ public class BuyingBookSteps {
 
 
     }
-
 
 
 

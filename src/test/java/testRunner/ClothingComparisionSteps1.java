@@ -4,11 +4,12 @@ import com.NopCommerce.ApparelPage;
 import com.NopCommerce.ClothingPage;
 import com.NopCommerce.CompareProductPage;
 import com.NopCommerce.HomePage;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.*;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-public class ClothingComparisionSteps {
+public class ClothingComparisionSteps1 {
     HomePage homePage = new HomePage();
     ApparelPage apparelPage = new ApparelPage();
     ClothingPage clothingPage = new ClothingPage();
